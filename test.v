@@ -42,44 +42,48 @@ module test();
     begin
       #(CYCLE*2);
       rin <= 1;
-      ain <= 1;
       data_in <= 1;
       #(CYCLE*1);
+      ain <= 0;    
+      #(CYCLE*1);
       rin <= 0;
       ain <= 0;
-      data_in <= 1;
+      
       #(CYCLE*1);
       rin <= 1;
-      ain <= 1;
       data_in <= 2;
       #(CYCLE*1);
+      ain <= 0;
+      #(CYCLE*1);
       rin <= 0;
       ain <= 0;
-      data_in <= 2;
+
       #(CYCLE*1);
       rin <= 1;
-      ain <= 1;
       data_in <= 3;
       #(CYCLE*1);
+      ain <= 0;
+      #(CYCLE*1);
       rin <= 0;
       ain <= 0;
-      data_in <= 3;
+      
       #(CYCLE*1);
       rin <= 1;
-      ain <= 1;
       data_in <= 4;
+      #(CYCLE*1);
+      ain <= 0;
       #(CYCLE*1);
       rin <= 0;
       ain <= 0;
-      data_in <= 4;
-       #(CYCLE*1);
+      
+      #(CYCLE*1);
       rin <= 1;
-      ain <= 1;
       data_in <= 5;
+      #(CYCLE*1);
+      ain <= 0;
       #(CYCLE*1);
       rin <= 0;
       ain <= 0;
-      data_in <= 5;
     end
       
 endmodule

@@ -1,3 +1,4 @@
+`timescale 1ns/10ps
 module asynchronous_pipeline(
     data_in,request_in,ack_out,data_out,request_out,ack_in,reset,R1,R2,R3,R4,data1,data2,data3,data4
   );
