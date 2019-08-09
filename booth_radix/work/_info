@@ -1,0 +1,187 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/booth_radix4 (1)
+T_opt
+!s110 1565233052
+VQI4;fC;g8g`2M3J_6Z57=3
+Z1 04 9 4 work testbench fast 0
+=1-e4b97a6b0065-5d4b8f9b-334-1f00
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1565344908
+VfHCzQUQ1dKE:LV:eZDhGA0
+R1
+=1-e4b97a6b0065-5d4d448b-2b6-e10
+o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R2
+R0
+vBooth2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 EX_ieLPmnME8OE9J0YL7>3
+IaXbd?5G?l@@RN;I=H1>Mk1
+Z4 dE:/booth_radix
+w1565321208
+8E:/booth_radix/Booth2.v
+FE:/booth_radix/Booth2.v
+L0 1
+Z5 OL;L;10.4;61
+!s108 1565352948.556000
+!s107 E:/booth_radix/Booth2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/booth_radix/Booth2.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@booth2
+vcompressor4_2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?0BdVfdiCA@L`dQ7P09j[2
+I2a?YlA`YA[InL4UOk56B40
+R4
+w1420463518
+8E:/booth_radix/compressor4_2.v
+FE:/booth_radix/compressor4_2.v
+L0 1
+R5
+!s108 1565352948.646000
+!s107 E:/booth_radix/compressor4_2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/booth_radix/compressor4_2.v|
+!i113 0
+R6
+vgenerate_PPi
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 P8QQ?a<=VINcElQVNAZ[91
+ISPNJ1lBAl?JVY6hM9OAho0
+R4
+w1562813233
+8E:/booth_radix/generate_PPi.v
+FE:/booth_radix/generate_PPi.v
+L0 1
+R5
+!s108 1565352948.739000
+!s107 E:/booth_radix/generate_PPi.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/booth_radix/generate_PPi.v|
+!i113 0
+R6
+ngenerate_@p@pi
+vSTG
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 DXUgO2MBo58bn>Yg_>]Y01
+IL1?bKfB1?1;[Y3DN2W?MU2
+R4
+w1565293415
+Z7 8E:/booth_radix/STG.v
+Z8 FE:/booth_radix/STG.v
+L0 1
+R5
+!s108 1565352948.815000
+Z9 !s107 E:/booth_radix/STG.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/booth_radix/STG.v|
+!i113 0
+R6
+n@s@t@g
+vSTG1
+!s110 1565291697
+!i10b 1
+!s100 eAc]?18Khm>6IM;kf8eR93
+IW`I?B[^HM@34]SN1POEh83
+R3
+R4
+w1565291487
+R7
+R8
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1565291697.625000
+R9
+R10
+!i113 0
+R6
+n@s@t@g1
+vSTG2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 na3aZA2a@?GbFdWLe<GaH0
+I:G2A8?<T<8l_6<]4QEDS;3
+R4
+w1565291861
+8E:/booth_radix/STG2.v
+FE:/booth_radix/STG2.v
+L0 1
+R5
+!s108 1565352948.890000
+!s107 E:/booth_radix/STG2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/booth_radix/STG2.v|
+!i113 0
+R6
+n@s@t@g2
+vSTG3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 S:A5mC7OKb:lW>Y?OUo<00
+IjWT<NadNW9<V]]6nkc7ic2
+R4
+w1565320885
+8E:/booth_radix/STG3.v
+FE:/booth_radix/STG3.v
+L0 1
+R5
+!s108 1565352948.966000
+!s107 E:/booth_radix/STG3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/booth_radix/STG3.v|
+!i113 0
+R6
+n@s@t@g3
+vtestbench
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Lb1hkQQJZ:839AS>KAX?_3
+ILJ[:B7nbL_N8HO8QT]zlJ0
+R4
+w1565352944
+8E:/booth_radix/tb.v
+FE:/booth_radix/tb.v
+L0 2
+R5
+!s108 1565352948.471000
+!s107 E:/booth_radix/tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/booth_radix/tb.v|
+!i113 0
+R6

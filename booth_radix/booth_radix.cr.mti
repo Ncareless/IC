@@ -1,0 +1,43 @@
+E:/booth_radix/STG2.v {1 {vlog -work work -vopt -stats=none E:/booth_radix/STG2.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module STG2
+
+Top level modules:
+	STG2
+
+} {} {}} E:/booth_radix/STG3.v {1 {vlog -work work -vopt -stats=none E:/booth_radix/STG3.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module STG3
+
+Top level modules:
+	STG3
+
+} {} {}} E:/booth_radix/Booth2.v {1 {vlog -work work -vopt -stats=none E:/booth_radix/Booth2.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Booth2
+
+Top level modules:
+	Booth2
+
+} {} {}} E:/booth_radix/STG.v {1 {vlog -work work -vopt -stats=none E:/booth_radix/STG.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module STG
+
+Top level modules:
+	STG
+
+} {} {}} E:/booth_radix/compressor4_2.v {1 {vlog -work work -vopt -stats=none E:/booth_radix/compressor4_2.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module compressor4_2
+
+Top level modules:
+	compressor4_2
+
+} {} {}} E:/booth_radix/generate_PPi.v {1 {vlog -work work -vopt -stats=none E:/booth_radix/generate_PPi.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module generate_PPi
+
+Top level modules:
+	generate_PPi
+
+} {} {}}
